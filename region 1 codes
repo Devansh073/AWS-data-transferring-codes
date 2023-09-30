@@ -1,0 +1,6 @@
+sudo -i
+lsblk
+mkfs -t ext4 /dev/xvdf
+mkdir /mnt/mydata
+mount /dev/xvdf /mnt/mydata
+df -h
