@@ -1,0 +1,6 @@
+sudo -i
+lsblk
+mkdir /mnt/destination-data
+mount /dev/xvdf /mnt/destination-data
+ls /mnt/destination-data
+cat /mnt/destination-data/example.txt
